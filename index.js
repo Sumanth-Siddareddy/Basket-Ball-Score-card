@@ -61,5 +61,6 @@ function startTimer(duration, display) {
 function startTime(){
     var FourtyMinutes = 60 * 40;
     display = document.getElementById('time-left');
+    document.getElementById("begin-end").style.visibility= "collapse";
     startTimer(FourtyMinutes, display);
 }
