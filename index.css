@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    color: white;
+    background-image: url('BasketBall.jpeg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    height: 60vh;
+    margin: 20vh 15vw 20vh 15vw; 
+    border: solid 4px #ffffff;
+    background: rgb(39, 24, 105);
+}
+
+.CountDown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CountDown #begin-end{
+    padding: 1rem;
+    border: solid 1px black;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgb(0, 255, 0);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.scoreCard{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+#Score, #time{
+    width:120px;
+    height: 155px;
+    background: #000000cf;
+    border: solid 1px white;
+    align-content: center;
+    text-align: center;
+}
+
+.points{
+    color: rgb(235, 26, 61);
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#time-left{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.Foul{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.increase{
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    height:45px;
+}
+
+#HomeNumber_1, #HomeNumber_2, #HomeNumber_3,
+#GuestNumber_1, #GuestNumber_2, #GuestNumber_3{
+    height: 35px;
+    width: 40px;
+    border: solid 0.3px #000;
+    border-radius: 5px;
+    align-content: center;
+    text-align: center;
+    color: #000;
+    font-size: medium;
+}

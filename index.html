@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="scoreCard">
+                <h3>HOME</h3>
+                <div id="Score">
+                    <p id="Homepoints" class="points">0</p>
+                </div>
+                <div class="FoulCounter">
+                    <button class="foulButton" onClick="HomeFoul()">Foul</button>
+                    <p class="Foul" id="HomeFoul"> </p>
+                </div>
+                
+                <div class="increase">
+                    <button id="HomeNumber_1" onClick="HomeAdd_1()" value="1">+1</button>
+                    <button id="HomeNumber_2" onClick="HomeAdd_2()" value="2">+2</button>
+                    <button id="HomeNumber_3" onClick="HomeAdd_3()" value="3">+3</button>
+                </div>
+            </div>
+
+            <div class="CountDown">
+                <div id="time">
+                    <p id="time-left">40 : 00</p>
+                </div>
+                <Button id="begin-end" onclick="startTime()">Start</Button>
+            </div>
+
+            <div class="scoreCard">
+                <h3>Guest</h3>
+                <div id="Score">
+                    <p id="Guestpoints" class="points">0</p>
+                </div>
+                <div class="FoulCounter">
+                    <button class="foulButton" onClick="GuestFoul()">Foul</button>
+                    <p class="Foul" id="GuestFoul"> </p>
+                </div>
+                <div class="increase">
+                    <button id="GuestNumber_1" onClick="GuestAdd_1()" value="1">+1</button>
+                    <button id="GuestNumber_2" onClick="GuestAdd_2()" value="2">+2</button>
+                    <button id="GuestNumber_3" onClick="GuestAdd_3()" value="3">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
